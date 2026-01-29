@@ -198,10 +198,14 @@ export default function Home() {
 
       <button
         onClick={() => router.push("/auth")}
-        className="mb-10 text-sm underline"
+        className="mb-10 text-sm cursor-pointer"
       >
         Login as Administrator
       </button>
+
+      <div className="mb-4">
+        <h3 className="text-gray-600">Developed By: Shem Regidor</h3>
+      </div>
     </div>
   );
 }
